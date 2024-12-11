@@ -2,7 +2,7 @@ let active = 0
 let quiter = 0
 let kittycatloc = -275
 var kittycat = document.getElementById('kittycat')
-var grunt = new Audio('https://cdn.pixabay.com/download/audio/2022/03/24/audio_dba7a37bfe.mp3'); //please save...
+var grunt = new Audio('grunt.mp3'); //please save...
 kittycat.style.top = kittycatloc.toString()+'px'
 kittycat.addEventListener("mouseover", (event) => {
 uncatTime()
